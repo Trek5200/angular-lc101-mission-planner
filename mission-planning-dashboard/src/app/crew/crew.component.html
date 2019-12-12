@@ -1,6 +1,8 @@
-<h3>Crew</h3>
-<ul>
-   <li>Jessica Watkins</li>
-   <li>Raja Chari</li>
-   <li>Jasmin Moghbeli</li>
-</ul>
+<div>
+   <h3>Crew</h3>
+   <ul>
+      <li *ngFor="let crewMember of crew">
+            {{ crewMember }}
+            </li>
+   </ul>
+</div>
